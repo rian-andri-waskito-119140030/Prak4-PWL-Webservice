@@ -4,7 +4,7 @@ NIM: 119140030</br>
 </br>
 Frontend: Reactjs </br>
 Backend: Laravel </br>
-"dependencies": {
+"dependencies": { </br>
         "@testing-library/jest-dom": "^5.16.3", </br>
         "@testing-library/react": "^12.1.4", </br>
         "@testing-library/user-event": "^13.5.0", </br>
@@ -15,5 +15,5 @@ Backend: Laravel </br>
         "react-scripts": "5.0.0", </br>
         "react-simple-typewriter": "^3.0.1", </br>
         "web-vitals": "^2.1.4", </br>
-        "yarn": "^1.22.18"
+        "yarn": "^1.22.18" </br>
       }
