@@ -1,13 +1,15 @@
 import axios from "axios"
-import React, { Component } from "react"
+import React, {
+  Component
+} from "react"
 import "./Review.css"
 
 class Review extends Component {
-  
-  
+
+
   state = {
-    name:'',
-    komen:''
+    name: '',
+    komen: ''
   }
 
   InputEvent = (e) => {
@@ -19,16 +21,16 @@ class Review extends Component {
   formSubmit = async (e) => {
     e.preventDefault();
 
-    const res = await axios.post('http://127.0.0.1:8000/api/review', this.state);
-    if (res.data.status === 200){
+    const res = await axios.post('https://server-rianandriwaskito.herokuapp.com/api/review', this.state);
+    if (res.data.status === 200) {
       console.log(res.data.message)
     }
 
   }
 
-  render () {
+  render() {
     return (
-  
+
       <section className='Contact' id='contact'>
         <div className='container top'>
           <div className='heading text-center'>
